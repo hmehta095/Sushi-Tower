@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SushiTower
 //
-//  Created by Parrot on 2019-02-14.
-//  Copyright © 2019 Parrot. All rights reserved.
+//  Created by Himanshu on 2019-02-14.
+//  Copyright © 2019 Himanshu. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval: 2.0)
         return true
     }
 

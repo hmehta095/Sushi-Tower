@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  SushiTower
 //
-//  Created by Parrot on 2019-02-14.
-//  Copyright © 2019 Parrot. All rights reserved.
+//  Created by Himanshu on 2019-02-14.
+//  Copyright © 2019 Himanshu. All rights reserved.
 //
 
 import UIKit

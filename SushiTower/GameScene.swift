@@ -2,8 +2,8 @@
 //  GameScene.swift
 //  SushiTower
 //
-//  Created by Parrot on 2019-02-14.
-//  Copyright © 2019 Parrot. All rights reserved.
+//  Created by Himanshu on 2019-02-14.
+//  Copyright © 2019 Himanshu. All rights reserved.
 //
 
 import SpriteKit
@@ -20,8 +20,8 @@ class GameScene: SKScene {
     var catPosition = "left"
     
     // Show life and score labels
-    let lifeLabel = SKLabelNode(text:"Lives: ")
-    let scoreLabel = SKLabelNode(text:"Score: ")
+    let lifeLabel = SKLabelNode(text:"5")
+    let scoreLabel = SKLabelNode(text:"0")
     
     let lifeTextLabel = SKLabelNode(text:"Lives: ")
     let scoreTextLabel = SKLabelNode(text:"Score: ")
@@ -82,30 +82,30 @@ class GameScene: SKScene {
         
         // Game labels
         self.scoreLabel.position.x = size.width - 40
-        self.scoreLabel.position.y = size.height - 100
+        self.scoreLabel.position.y = size.height - 80
         self.scoreLabel.fontName = "Avenir"
-        self.scoreLabel.fontSize = 40
+        self.scoreLabel.fontSize = 30
         addChild(scoreLabel)
         
         // Life label
         self.lifeLabel.position.x = size.width - 40
-        self.lifeLabel.position.y = size.height - 150
+        self.lifeLabel.position.y = size.height - 130
         self.lifeLabel.fontName = "Avenir"
-        self.lifeLabel.fontSize = 40
+        self.lifeLabel.fontSize = 30
         addChild(lifeLabel)
         
         // Game labels
-       self.lifeTextLabel.position.x = size.width - 40
-       self.lifeTextLabel.position.y = size.height - 100
-       self.lifeTextLabel.fontName = "Avenir"
-       self.lifeTextLabel.fontSize = 40
-       addChild(scoreLabel)
+       self.scoreTextLabel.position.x = 50
+       self.scoreTextLabel.position.y = size.height - 80
+       self.scoreTextLabel.fontName = "Avenir"
+       self.scoreTextLabel.fontSize = 30
+       addChild(scoreTextLabel)
                
                // Life label
-       self.lifeTextLabel.position.x = size.width - 40
-       self.lifeTextLabel.position.y = size.height - 150
+       self.lifeTextLabel.position.x = 50
+       self.lifeTextLabel.position.y = size.height - 130
        self.lifeTextLabel.fontName = "Avenir"
-       self.lifeTextLabel.fontSize = 40
+       self.lifeTextLabel.fontSize = 30
        addChild(lifeTextLabel)
     }
     
